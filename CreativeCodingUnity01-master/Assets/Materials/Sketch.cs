@@ -3,7 +3,7 @@ using Pathfinding.Serialization.JsonFx; //make sure you include this using
 
 public class Sketch : MonoBehaviour {
     public GameObject myPrefab;
-    public string _WebsiteURL = "http://ache212.azurewebsites.net/tables/SpreadSheet?zumo-api-version=2.0.0";
+	public string _WebsiteURL = "http://ache212.azurewebsites.net/tables/product/product?api_key=product?zumo-api-version=2.0.0";
 
     void Start () {
         //Reguest.GET can be called passing in your ODATA url as a string in the form:
