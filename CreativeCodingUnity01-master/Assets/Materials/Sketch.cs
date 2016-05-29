@@ -47,7 +47,7 @@ public class Sketch : MonoBehaviour {
 			float y = 10.0f;
 			float z = 0.0f;
 			var newCube = (GameObject)Instantiate(myPrefab, new Vector3(x, y, z), Quaternion.identity); //Quaternion is default identity;
-			newCube.GetComponent<CubeCode>().SetSize(0.7f * (1.0f - perc));
+			newCube.GetComponent<CubeCode>().SetSize(0.7f);
 			newCube.GetComponent<CubeCode>().rotateSpeed = .2f + perc;
 			newCube.GetComponentInChildren<TextMesh>().text = trello.Title;
 
