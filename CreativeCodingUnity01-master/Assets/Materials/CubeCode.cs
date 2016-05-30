@@ -18,7 +18,7 @@ public class CubeCode : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		this.transform.Rotate (spinSpeed);
+		
 		this.transform.RotateAround (Vector3.zero, spinAxes, rotateSpeed);
 	}
 }
